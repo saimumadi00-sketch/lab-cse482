@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Contact</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      color: #222222;
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1a1a2e;
+      padding: 20px 40px;
+    }
+
+    header h1 {
+      color: #e0e0e0;
+      font-size: 26px;
+      margin: 0 0 12px 0;
+    }
+
+    nav { margin-top: 8px; }
+
+    nav a {
+      color: #a8d8ea;
+      text-decoration: none;
+      font-size: 16px;
+      margin-right: 24px;
+      font-family: Arial, sans-serif;
+    }
+
+    nav a:hover { color: #ffffff; text-decoration: underline; }
+
+    nav a.active {
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    main {
+      width: 760px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 40px 50px;
+      border: 1px solid #cccccc;
+    }
+
+    h2 {
+      color: #1a1a2e;
+      font-size: 30px;
+      margin-bottom: 6px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 2px solid #1a1a2e;
+      margin: 20px 0 30px 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #333333;
+    }
+
+    h3 {
+      color: #1a1a2e;
+      font-size: 20px;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-info {
+      background-color: #f0f4f8;
+      border: 1px solid #cccccc;
+      padding: 20px 26px;
+      margin-bottom: 36px;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+    }
+
+    .contact-info a { color: #1a1a2e; }
+    .contact-info a:hover { text-decoration: none; color: #2e2e5e; }
+
+    label {
+      display: block;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      color: #1a1a2e;
+      margin-top: 18px;
+      margin-bottom: 6px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #bbbbbb;
+      background-color: #fafafa;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      color: #222222;
+      box-sizing: border-box;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      border-color: #1a1a2e;
+      outline: none;
+      background-color: #ffffff;
+    }
+
+    textarea {
+      height: 130px;
+      resize: vertical;
+    }
+
+    input[type="submit"] {
+      background-color: #1a1a2e;
+      color: #ffffff;
+      border: none;
+      padding: 12px 30px;
+      font-size: 15px;
+      font-family: Arial, sans-serif;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover { background-color: #2e2e5e; }
+
+    footer {
+      background-color: #1a1a2e;
+      color: #aaaaaa;
+      text-align: center;
+      padding: 18px;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Md Saimum Al Mahmud &mdash; Portfolio</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Me</h2>
+    <hr class="divider">
+
+    <p>
+      I am always happy to connect! Whether you have a question, a project idea, or just want
+      to say hello, feel free to reach out using the form below or through my details.
+    </p>
+
+    <div class="contact-info">
+      <p><strong>Name:</strong> Md Saimum Al Mahmud</p>
+      <p><strong>Location:</strong> Dhaka City, Bangladesh</p>
+      <p><strong>University:</strong> North South University</p>
+      <p><strong>GitHub:</strong> <a href="#">github.com/saimum</a></p>
+      <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/saimum</a></p>
+    </div>
+
+    <h3>Send Me a Message</h3>
+
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name">
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="your@email.com">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="What is this about?">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+
+    <input type="submit" value="Send Message">
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Md Saimum Al Mahmud. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Projects</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      color: #222222;
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1a1a2e;
+      padding: 20px 40px;
+    }
+
+    header h1 {
+      color: #e0e0e0;
+      font-size: 26px;
+      margin: 0 0 12px 0;
+    }
+
+    nav { margin-top: 8px; }
+
+    nav a {
+      color: #a8d8ea;
+      text-decoration: none;
+      font-size: 16px;
+      margin-right: 24px;
+      font-family: Arial, sans-serif;
+    }
+
+    nav a:hover { color: #ffffff; text-decoration: underline; }
+
+    nav a.active {
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    main {
+      width: 760px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 40px 50px;
+      border: 1px solid #cccccc;
+    }
+
+    h2 {
+      color: #1a1a2e;
+      font-size: 30px;
+      margin-bottom: 6px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 2px solid #1a1a2e;
+      margin: 20px 0 30px 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #333333;
+    }
+
+    .project-card {
+      border: 1px solid #cccccc;
+      padding: 22px 26px;
+      margin-bottom: 26px;
+      background-color: #fafafa;
+    }
+
+    .project-card h3 {
+      margin: 0 0 6px 0;
+      color: #1a1a2e;
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .project-card .tag {
+      display: inline-block;
+      background-color: #1a1a2e;
+      color: #a8d8ea;
+      font-size: 12px;
+      font-family: Arial, sans-serif;
+      padding: 3px 10px;
+      margin-right: 6px;
+      margin-bottom: 12px;
+    }
+
+    .project-card p {
+      margin: 10px 0 0 0;
+      font-size: 15px;
+    }
+
+    .project-card a {
+      display: inline-block;
+      color: #1a1a2e;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      margin-top: 14px;
+      text-decoration: underline;
+    }
+
+    .project-card a:hover { color: #2e2e5e; }
+
+    footer {
+      background-color: #1a1a2e;
+      color: #aaaaaa;
+      text-align: center;
+      padding: 18px;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Md Saimum Al Mahmud &mdash; Portfolio</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>My Projects</h2>
+    <hr class="divider">
+
+    <p>Here are some of the projects I have worked on as part of my studies and personal learning at North South University.</p>
+
+    <div class="project-card">
+      <h3>Personal Portfolio Website</h3>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <p>
+        A multi-page personal portfolio built using only basic HTML and CSS — no frameworks or libraries.
+        Focuses on clean structure, readable typography, and consistent navigation across all pages.
+      </p>
+      <a href="#">View Project &rarr;</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Student Grade Calculator</h3>
+      <span class="tag">Python</span>
+      <span class="tag">CLI</span>
+      <p>
+        A command-line tool that reads student scores, calculates averages, assigns letter grades,
+        and outputs a formatted report. A practical utility built as part of a programming course.
+      </p>
+      <a href="#">View Project &rarr;</a>
+    </div>
+
+    <div class="project-card">
+      <h3>University Course Registration System</h3>
+      <span class="tag">Java</span>
+      <span class="tag">OOP</span>
+      <span class="tag">Database</span>
+      <p>
+        An object-oriented Java application that simulates a course registration system for university
+        students. Demonstrates core OOP principles such as inheritance, encapsulation, and polymorphism.
+      </p>
+      <a href="#">View Project &rarr;</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Simple To-Do List App</h3>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+      <p>
+        A browser-based to-do list application where users can add, complete, and delete tasks.
+        Built with vanilla JavaScript, with no external libraries or frameworks used.
+      </p>
+      <a href="#">View Project &rarr;</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Md Saimum Al Mahmud. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
